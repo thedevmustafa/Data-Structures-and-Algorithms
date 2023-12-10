@@ -16,7 +16,7 @@ void display(int array[], int length)
 void selection(int array[], int length)
 {
     int min;
-    // Outer loop for swaping smallest element to correct place
+    // Outer loop for swapping smallest element to correct place
     for (int i = 0; i < length - 1; i++)
     {
         min = i;
